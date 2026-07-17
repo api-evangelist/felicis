@@ -1,0 +1,82 @@
+aid: felicis
+name: Felicis Ventures
+description: >-
+  Felicis Ventures is an early-stage venture capital firm founded in 2006 by
+  Aydin Senkut and headquartered in Menlo Park, California. The firm backs
+  founders "who rewrite the rules," concentrating the majority of its capital at
+  Seed and Series A while also participating in Series B and select growth
+  rounds, with reported assets under management of roughly $2.4B and a tenth
+  flagship fund (FV X) of $900M closed in June 2025. Typical checks range from
+  about $2M to $40M. Felicis is thesis-driven across artificial intelligence,
+  cybersecurity and defense, global resilience and energy, health and bio,
+  infrastructure, and vertical SaaS, and invests globally (backing founders from
+  40+ countries rather than only Silicon Valley). The firm leads or co-leads a
+  large share of its deals, sources most new investments through founder
+  referrals, and is known for founder-friendly practices including a commitment
+  to vote with founders on board matters and a "1% Founder Development Pledge."
+  Its portfolio and exits include Shopify, Adyen, Canva, Notion, Credit Karma,
+  Fitbit, Guardant Health, Docker, PagerDuty, Twitch, Supabase, and Runway.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://www.felicis.com/favicon.ico
+created: '2026-07-17'
+modified: '2026-07-17'
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Artificial Intelligence
+  - Cybersecurity
+  - Fintech
+  - Infrastructure
+  - Health
+  - Global
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.felicis.com
+  - type: Portfolio
+    url: https://www.felicis.com/portfolio
+  - type: Portfolio
+    url: portfolio/felicis-portfolio.yml
+  - type: Team
+    url: https://www.felicis.com/team
+  - type: Team
+    url: team/felicis-team.yml
+  - type: InvestmentThesis
+    url: https://www.felicis.com/about
+  - type: Blog
+    url: https://www.felicis.com/blog
+  - type: Jobs
+    url: https://jobs.felicis.com/jobs
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/felicis-ventures
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/felicis-ventures/
+  - type: Twitter
+    url: https://twitter.com/felicis
+  - type: YouTube
+    url: https://www.youtube.com/@felicis_ventures
+  - type: Features
+    data:
+      - 'Stage: Seed, Series A, Series B+'
+      - 'Typical check: $2M-$40M'
+      - 'Sectors: AI, cybersecurity & defense, global resilience & energy, health & bio, infrastructure, vertical SaaS'
+      - 'Geography: Global (founders from 40+ countries)'
+      - 'AUM: ~$2.4B (self/press-reported)'
+      - 'Latest fund: FV X, $900M (closed June 2025)'
+      - 'Founded: 2006'
+      - 'HQ: Menlo Park, CA'
+    sources:
+      - https://www.felicis.com/
+      - https://www.vcsheet.com/fund/felicis-ventures
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Felicis Ventures
+    url: https://www.felicis.com
