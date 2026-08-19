@@ -42,7 +42,7 @@ tags:
   - Infrastructure
   - Health
   - Global
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: Website
