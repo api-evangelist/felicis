@@ -712,7 +712,7 @@ companies:
   url: https://greenhouse.com
   status: active
   source: https://www.felicis.com/portfolio
-  slug: greenhouse-io
+  slug: greenhouse
   in_network: true
   is_api_provider: true
   matched_by: domain
