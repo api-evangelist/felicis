@@ -1,4 +1,32 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: felicis
-leads: []
+leads:
+- name: Atlas
+  url: https://atlas.health
+  suggested_slug: atlas-health
+  sector: ''
+  source_vc: felicis
+  source: https://www.felicis.com/portfolio
+  stub_created: false
+- name: Revel
+  url: https://revel.io
+  suggested_slug: revel
+  sector: ''
+  source_vc: felicis
+  source: https://www.felicis.com/portfolio
+  stub_created: false
+- name: Getsona
+  url: https://getsona.com
+  suggested_slug: getsona
+  sector: ''
+  source_vc: felicis
+  source: https://www.felicis.com/portfolio
+  stub_created: false
+- name: Sooth
+  url: https://sooth.inc
+  suggested_slug: sooth-inc
+  sector: ''
+  source_vc: felicis
+  source: https://www.felicis.com/portfolio
+  stub_created: false

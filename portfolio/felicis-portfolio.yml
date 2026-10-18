@@ -3,9 +3,9 @@ method: searched
 source: https://www.felicis.com/portfolio
 summary:
   portfolio_total: 211
-  in_network: 211
-  api_providers: 57
-  missing: 0
+  in_network: 207
+  api_providers: 66
+  missing: 4
   stubs_created: 0
 companies:
 - name: Vark
@@ -28,10 +28,10 @@ companies:
   url: https://adaptive.co
   status: active
   source: https://www.felicis.com/portfolio
-  slug: adaptive
+  slug: adaptive-innovations
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Adyen
   url: https://adyen.com
   sector: fintech
@@ -54,7 +54,7 @@ companies:
   url: https://alloy.com
   status: active
   source: https://www.felicis.com/portfolio
-  slug: alloy
+  slug: alloy-com
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -72,8 +72,8 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: arena
-  matched_by: name-slug
+  slug: arena-intelligence
+  matched_by: domain
 - name: Armada
   url: https://armada.ai
   status: active
@@ -104,7 +104,7 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: assorthealth
+  slug: assort-health
   matched_by: domain
 - name: Astranis
   url: https://astranis.com
@@ -128,10 +128,10 @@ companies:
   url: https://atlas.health
   status: active
   source: https://www.felicis.com/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: atlas
-  matched_by: name-slug
+  x-name-collision: atlas
+  suggested_slug: atlas-health
 - name: Attentive
   url: https://attentive.com
   sector: marketing
@@ -164,7 +164,7 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: bioagelabs
+  slug: bioage-labs
   matched_by: domain
 - name: Blomma
   url: https://blomma.com
@@ -286,7 +286,7 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: clearlabs
+  slug: clear-labs
   matched_by: domain
 - name: Coalitioninc
   url: https://coalitioninc.com
@@ -336,7 +336,7 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: creditkarma
+  slug: credit-karma
   matched_by: domain
 - name: Crusoe
   url: https://crusoe.ai
@@ -344,7 +344,7 @@ companies:
   stage: growth
   status: active
   source: https://www.felicis.com/portfolio
-  slug: crusoe-energy
+  slug: crusoe
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -432,7 +432,7 @@ companies:
   url: https://paloaltonetworks.com
   status: active
   source: https://www.felicis.com/portfolio
-  slug: demisto
+  slug: cyberark
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -441,7 +441,7 @@ companies:
   status: active
   source: https://www.felicis.com/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: disconetwork
   matched_by: domain
 - name: Distributedspectrum
@@ -473,7 +473,7 @@ companies:
   status: active
   source: https://www.felicis.com/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: dovetail
   matched_by: domain
 - name: Dreambase
@@ -601,7 +601,7 @@ companies:
   status: active
   source: https://www.felicis.com/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: fellow
   matched_by: domain
 - name: Fifthdoor
@@ -642,7 +642,7 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: formation
+  slug: formation-bio
   matched_by: domain
 - name: Fractile
   url: https://fractile.ai
@@ -778,7 +778,7 @@ companies:
   url: https://hippo.com
   status: active
   source: https://www.felicis.com/portfolio
-  slug: hippo
+  slug: hippo-com
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -795,8 +795,8 @@ companies:
   status: active
   source: https://www.felicis.com/portfolio
   in_network: true
-  is_api_provider: false
-  slug: iru
+  is_api_provider: true
+  slug: kandji
   matched_by: domain
 - name: Junipersquare
   url: https://junipersquare.com
@@ -844,7 +844,7 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: komodohealth
+  slug: komodo-health
   matched_by: domain
 - name: Komodor
   url: https://komodor.com
@@ -926,15 +926,15 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: joinmidi
+  slug: midi-health
   matched_by: domain
 - name: Monami
   url: https://monami.io
   status: active
   source: https://www.felicis.com/portfolio
   in_network: true
-  is_api_provider: false
-  slug: monami
+  is_api_provider: true
+  slug: mon-ami
   matched_by: domain
 - name: Moondream
   url: https://moondream.ai
@@ -1122,7 +1122,7 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: periodic
+  slug: periodic-labs
   matched_by: domain
 - name: Permitflow
   url: https://permitflow.com
@@ -1162,7 +1162,7 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: pindrop
+  slug: pindrop-security
   matched_by: domain
 - name: Plaid
   url: https://plaid.com
@@ -1176,9 +1176,9 @@ companies:
   url: https://planet.com
   status: active
   source: https://www.felicis.com/portfolio
-  slug: planet
+  slug: planet-labs
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Pluralsight
   url: https://pluralsight.com
@@ -1200,9 +1200,9 @@ companies:
   url: https://poolside.ai
   status: active
   source: https://www.felicis.com/portfolio
-  slug: poolside
+  slug: poolside-ai
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Get
   url: https://get.popmenu.com
@@ -1241,8 +1241,8 @@ companies:
   status: active
   source: https://www.felicis.com/portfolio
   in_network: true
-  is_api_provider: false
-  slug: proton
+  is_api_provider: true
+  slug: protonai
   matched_by: domain
 - name: Puzzle
   url: https://puzzle.io
@@ -1280,7 +1280,7 @@ companies:
   url: https://recursion.com
   status: active
   source: https://www.felicis.com/portfolio
-  slug: recursion
+  slug: exscientia
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1288,10 +1288,9 @@ companies:
   url: https://revel.io
   status: active
   source: https://www.felicis.com/portfolio
-  slug: revel
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  suggested_slug: revel
 - name: Ricursive
   url: https://ricursive.com
   status: active
@@ -1322,7 +1321,7 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: rovio
+  slug: rovio-entertainment
   matched_by: domain
 - name: Runlayer
   url: https://runlayer.com
@@ -1380,7 +1379,7 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: singularityus
+  slug: singularity
   matched_by: domain
 - name: Skild
   url: https://skild.ai
@@ -1412,7 +1411,7 @@ companies:
   source: https://www.felicis.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: slingshotai
+  slug: slingshot-ai
   matched_by: domain
 - name: Smacktechnologies
   url: https://smacktechnologies.com
@@ -1426,18 +1425,17 @@ companies:
   url: https://getsona.com
   status: active
   source: https://www.felicis.com/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: getsona
-  matched_by: name-slug
+  suggested_slug: getsona
 - name: Sooth
   url: https://sooth.inc
   status: active
   source: https://www.felicis.com/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: sooth
-  matched_by: name-slug
+  x-name-collision: sooth
+  suggested_slug: sooth-inc
 - name: Soundhound
   url: https://soundhound.com
   status: active
@@ -1459,7 +1457,7 @@ companies:
   status: active
   source: https://www.felicis.com/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: spekit
   matched_by: domain
 - name: Getsphere
@@ -1614,7 +1612,7 @@ companies:
   stage: series-c
   status: active
   source: https://www.felicis.com/portfolio
-  slug: vannevar-labs
+  slug: vannevar
   in_network: true
   is_api_provider: false
   matched_by: domain
